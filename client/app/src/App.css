@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 90%;
+    width:50%;
+    /* background-color: red; */
+} 
+
+.heading{
+    height:10%;
+    width:100%;
+    text-align: center;
+    background-color: yellow !important;
+}
+
+.body {
+    height:80%;
+    width:100%;
+    border: 2px solid black !important;
+    background-color: white !important;
+}
+
+.textbox{
+    height: 10%;
+    width:100%; 
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.textbox>input{
+  width :70%;
+  height:100%;
+}   
+.textbox>button{
+    width: 25%;
+    height: 100%;
+}
